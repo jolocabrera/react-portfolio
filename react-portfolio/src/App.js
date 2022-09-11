@@ -2,48 +2,53 @@ import logo from './logo.svg';
 import React, { useState } from 'react';
 
 import './App.css';
-import Nav from './components/Navigation';
+import Header from './components/Header';
 import About from './components/About';
 import ContactForm from './components/Contact';
 import Portfolio from './components/Portfolio';
-import Project from './components/Project';
+
 
 
 
 
 function App() {
-  const [categories] = useState([
+  const [pages] = useState([
     {
-      name: 'commercial',
-      description: 'Photos of grocery stores, food trucks, and other commercial projects',
+      name: 'about',
+      description: 'Who am I',
     },
-    { name: 'portraits', description: 'Portraits of people in my life' },
-    { name: 'food', description: 'Delicious delicacies' },
-    { name: 'landscape', description: 'Fields, farmhouses, waterfalls, and the beauty of nature' },
+    { name: 'work', description: 'Portfolio of my projects' },
   ]);
 
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
+  const [currentPage, setCurrentPage] = useState(pages[0]);
 
   const [contactSelected, setContactSelected] = useState(false);
+  const [aboutSelected, setAboutSelected] = useState(true);
+  const [portfolioSelected, setPortfolioSelected] = useState(false);
 
   return (
     <div>
-      <Nav
-        categories={categories}
-        setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory}
+      <Header
+        // pages={pages}
+        // setCurrentPage={setCurrentPage}
+        // currentPage={currentPage}
         contactSelected={contactSelected}
         setContactSelected={setContactSelected}
-      ></Nav>
+        aboutSelected={aboutSelected}
+        setAboutSelected={setAboutSelected}
+        portfolioSelected={portfolioSelected}
+        setPortfolioSelected={setPortfolioSelected}
+      ></Header>
       <main>
-        {!contactSelected ? (
-          <>
-            <Portfolio currentCategory={currentCategory}></Portfolio>
-            <About></About>
-          </>
-        ) : (
+        {contactSelected &&
           <ContactForm></ContactForm>
-        )}
+        }
+        {aboutSelected &&
+        <About/>
+        }
+        {portfolioSelected &&
+        <Portfolio/>
+        }
       </main>
     </div>
   );
