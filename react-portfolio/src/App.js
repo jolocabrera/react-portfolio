@@ -5,7 +5,8 @@ import './App.css';
 import Nav from './components/Navigation';
 import About from './components/About';
 import ContactForm from './components/Contact';
-// import Gallery from './components/Gallery';
+import Portfolio from './components/Portfolio';
+import Project from './components/Project';
 
 
 
@@ -34,16 +35,16 @@ function App() {
         contactSelected={contactSelected}
         setContactSelected={setContactSelected}
       ></Nav>
-      {/* <main>
+      <main>
         {!contactSelected ? (
           <>
-            <Gallery currentCategory={currentCategory}></Gallery>
+            <Portfolio currentCategory={currentCategory}></Portfolio>
             <About></About>
           </>
         ) : (
           <ContactForm></ContactForm>
         )}
-      </main> */}
+      </main>
     </div>
   );
 }
