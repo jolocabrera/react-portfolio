@@ -15,8 +15,8 @@ function Portfolio(props) {
       name: 'Pet Park',
       id: 'pet-park',
       link: 'https://radiant-eyrie-35854.herokuapp.com/',
-      category: 'secondary-app',
-      languages: 'HTML/CSS/JS/Jquery/Node/Express Sequelize/MySQL/Phaser/Tiled'
+      category: 'primary-app',
+      languages: 'HTML/CSS/JS/Jquery/Node/Express/Sequelize/MySQL/Phaser/Tiled'
     },
     {
       name: 'Park Buddy',
@@ -24,6 +24,13 @@ function Portfolio(props) {
       link: 'https://magoofy.github.io/project-1',
       category: 'secondary-app',
       languages: 'HTML/CSS/JS/BootStrap/API'
+    },
+    {
+      name: 'Google Book Search',
+      id: 'book-search',
+      link: 'https://salty-bayou-74149.herokuapp.com/',
+      category: 'secondary-app',
+      languages: 'MongoDB/Express/React/Node'
     },
     {
       name: 'Run Buddy',

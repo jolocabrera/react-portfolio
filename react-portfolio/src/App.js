@@ -7,6 +7,7 @@ import About from './components/About';
 import ContactForm from './components/Contact';
 import Portfolio from './components/Portfolio';
 import Hero from './components/Hero';
+import Footer from './components/Footer';
 
 
 
@@ -52,6 +53,7 @@ function App() {
         <Portfolio/>
         }
       </main>
+      <Footer></Footer>
     </div>
   );
 }

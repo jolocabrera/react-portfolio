@@ -215,6 +215,10 @@ justify-content: flex-end;
   background-image: url(../src/assets/cards.png);
 }
 
+#book-search{
+  background-image: url(../src/assets/books.jpeg);
+}
+
 #run-buddy {
   background-image: url(../src/assets/Run\ Buddy\ Cover.jpg);
 }
@@ -240,23 +244,48 @@ justify-content: flex-end;
 }
 /* end styling for main work section*/
 
-/* styling for contact me section*/
+/* styling for footer section*/
 
-#contact-me {
+#footer {
   display: flex;
   flex-flow: row wrap;
 }
 
-#contact-me address {
+#footer address {
   display: flex;
   justify-content: space-around;
   align-items: center;
   width: 65%;
 }
 
-#contact-me a {
-  font-size: 20px;
+#footer a {
+  font-size: 30px;
   color: var(--secondary-color);
+}
+
+
+/*contact form styling*/
+#form-container{
+  padding: 2%;
+}
+
+form {
+  width: 40%;
+}
+
+input {
+  font-size: 1rem;
+  padding: 0.25rem;
+  border: 1px solid var(--dark);
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+  
+}
+
+input:focus {
+  border: 1px solid var(--secondary);
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
 }
 /*end styling for contact me section */
 
@@ -334,7 +363,7 @@ header nav ul li a {
 /* MEDIA QUERY FOR TABLETS AND SMALLER (768px AND UNDER)*/
 @media screen and (max-width: 768px) {
 
-  #contact-me address {
+  #footer address {
       width: 100%;
   }
 
@@ -362,7 +391,7 @@ header nav ul li a {
       font-size: 20px;
   }
 
-  #contact-me address {
+  #footer address {
       flex-direction: column;
   }
 
