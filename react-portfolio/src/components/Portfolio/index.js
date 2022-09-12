@@ -16,7 +16,7 @@ function Portfolio(props) {
       id: 'pet-park',
       link: 'https://radiant-eyrie-35854.herokuapp.com/',
       category: 'secondary-app',
-      languages: 'HTML/CSS/JS/Jquery/Node/Express/Sequelize/MySQL/Phaser/Tiled'
+      languages: 'HTML/CSS/JS/Jquery/Node/Express Sequelize/MySQL/Phaser/Tiled'
     },
     {
       name: 'Park Buddy',
@@ -47,7 +47,7 @@ function Portfolio(props) {
     <h2 className= "section-title">Work</h2>
     <div className="app-container">
       {projects.map((projects) => 
-      <Project projects={projects}></Project>)}
+      <Project projects={projects} key={`${projects.id}`}></Project>)}
     </div>
 </section>
   );

@@ -15,9 +15,9 @@ setPortfolioSelected
 
     return (
         <header className="flex-row px-1">
-            <h2>
+            <h1>
                 <a href="/">Jolo Cabrera</a>
-            </h2>
+            </h1>
             <Nav         contactSelected={contactSelected}
         setContactSelected={setContactSelected}
         aboutSelected={aboutSelected}
@@ -26,6 +26,7 @@ setPortfolioSelected
         setPortfolioSelected={setPortfolioSelected} >
             </Nav>
         </header>
+        
     );
 }
 

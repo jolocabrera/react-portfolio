@@ -1,10 +1,8 @@
 import React, { useState } from 'react';
 
 const Project = ({ projects }) => {
-  console.log(projects)
   return (
-    <div>
-    <article className = {`${projects.category}`} id = {`${projects.id}`} key={`${projects.id}`}>
+    <article className = {`${projects.category}`} id = {`${projects.id}`} >
     <a href={`${projects.link}`} target="_blank">
         <figcaption className="app-label">
             <h3>{projects.name}</h3>
@@ -14,7 +12,6 @@ const Project = ({ projects }) => {
         </figcaption>
     </a>
 </article>
-    </div>
   );
 };
 

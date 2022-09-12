@@ -6,6 +6,7 @@ import Header from './components/Header';
 import About from './components/About';
 import ContactForm from './components/Contact';
 import Portfolio from './components/Portfolio';
+import Hero from './components/Hero';
 
 
 
@@ -39,6 +40,7 @@ function App() {
         portfolioSelected={portfolioSelected}
         setPortfolioSelected={setPortfolioSelected}
       ></Header>
+      <Hero></Hero>
       <main>
         {contactSelected &&
           <ContactForm></ContactForm>

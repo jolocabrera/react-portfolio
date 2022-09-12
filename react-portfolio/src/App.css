@@ -1,38 +1,370 @@
-.App {
+:root {
+  --primary-color: grey ;
+  --secondary-color: white;
+  --tertiary-color: black;
+}
+
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+/*General styles for entire body*/
+body {
+  color: var(--secondary-color);
+  font-family: Baskerville, "Baskerville Old Face";
+  background-color: var(--primary-color)
+
+}
+
+/*Styles for header, footer, and nav*/
+header {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  padding: 20px 70px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: -webskit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+
+header a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+header h1 {
+  font-weight: bold;
+  font-size: 48px;
+  margin: 0;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header nav {
+  font-size: 20px;
+  margin: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header nav ul {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
   align-items: center;
+  list-style: none;
+  padding: 0px;
+}
+
+header nav ul li span {
+  padding: 10px 15px;
+  color: var(--secondary-color);
+  font-size: 30px;
+}
+
+header nav ul li span:hover {
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  border-radius: 15px;
+  text-shadow: none;
+  
+}
+
+footer {
+  color: var(--secondary-color);
+  font-size: 20px;
+  padding: 20px;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/*End styles for header and nav*/
+
+/*Styles for hero section*/
+.hero {
+  background-image: url(../src/assets/Hero\ BG.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 0 50px 10px 0;
+  height: 300px;
+  background-position: 80%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.hero p {
+  font-size: 70px;
+  font-style: italic;
+  text-shadow: 0 0 10px rgba(0,0,0,0.5);
+  color: var(--secondary-color);
+}
+
+/*End of hero styles*/
+
+/*Styles for about me section*/
+
+#about-me {
+  display: flex;
+  flex-direction: row;
+  margin: 40px 0;
+}
+
+#about-me article {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 40px;
+}
+
+#about-me p {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  margin: 0px 40px;
+}
+
+#about-me .img-container {
+  width: 80%;
+}
+
+#about-me img {
+  display: flex;
+  align-items: center;
+  max-width: 75%;
+  padding: 20px 40px;
+  border-radius: 50%;
+}
+
+
+
+
+/*end "about me" styling */
+
+/*Styles for work section */
+
+#work {
+  display: flex;
+  flex-direction: row;
+  margin: 40px 0;
+}
+
+.app-container {
+  width: 60%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+.app-container a {
+height: 100%;
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+}
+
+
+.primary-app {
+  margin: 1%;
+  width: 98%;
+  height: 400px;
+  border: 5px solid var(--secondary-color);
+  display: flex;
+  align-items: flex-end;
+  background-size:cover;
+  background-position:0% 0%;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+}
+
+.primary-app:hover {
+  opacity: 1;
+}
+
+.secondary-app {
+  margin: 1%;
+  width: 48%;
+  height: 200px;
+  border: 5px solid var(--secondary-color);
+  display: flex;
+  align-items: flex-end;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5;
+}
+
+.secondary-app:hover {
+  opacity: 1;
+}
+
+
+
+.app-label {
+  padding: 10px 20px;
+  margin: 40px 0;
+  width:fit-content;
+  color: var(--tertiary-color);
+  background-color: var(--secondary-color);
+}
+
+#game-quest {
+  background-image: url(../src/assets/cards.png);
+}
+
+#run-buddy {
+  background-image: url(../src/assets/Run\ Buddy\ Cover.jpg);
+}
+
+#robot-gladiators {
+  background-image: url(../src/assets/Robot\ Gladiators\ Cover.jpg);
+}
+
+#park-buddy {
+  background-image: url(../src/assets/parkbuddyimg.jpg);
+}
+
+#horiseon {
+  background-image: url(../src/assets/Horiseon\ Cover.jpg);
+}
+
+#password-generator {
+  background-image: url(../src/assets/Password\ Generator\ Cover.webp);
+}
+
+#pet-park{
+  background-image: url(../src/assets/petparklogo.svg);
+}
+/* end styling for main work section*/
+
+/* styling for contact me section*/
+
+#contact-me {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#contact-me address {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 65%;
+}
+
+#contact-me a {
+  font-size: 20px;
+  color: var(--secondary-color);
+}
+/*end styling for contact me section */
+
+
+
+
+
+/*util styles and class styles*/
+.section-title {
+  width: 30%;
+  font-size: 36px;
+  padding: 20px 30px;
+  border-right: 2px solid var(--tertiary-color);
+  display: flex;
+  justify-content: flex-end;
+  white-space: nowrap;
+}
+
+
+/*------------- MEDIA QUERIES-------------*/
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER (980px AND UNDER)*/
+@media screen and (max-width: 980px) {
+header {
+    flex-direction: column;
+    align-content: center;
+    position: relative;
+}
+header nav ul{
+    display: flex;
+    flex-direction: column;
+}
+
+header nav ul li a {
+    padding: 10px 0px;
+}
+
+#about-me , #work, #contact-me {
+    flex-direction: column;
+    align-items: center;
+}
+
+#about-me article {
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 90%;
+}
+
+.section-title {
+    justify-content: center;
+    border-right: none;
+    border-bottom: 3px solid var(--tertiary-color);
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+}
+
+#about-me p {
+    width: 100%;
+}
+
+.app-container, #contact-me address {
+    margin-top: 10px;
+}
+
+.app-label {
+  font-size: 10px;
+}
+
+
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER (768px AND UNDER)*/
+@media screen and (max-width: 768px) {
+
+  #contact-me address {
+      width: 100%;
   }
-  to {
-    transform: rotate(360deg);
+
+  .app-container {
+      width: 80%;
   }
+
+  #about-me .img-container {
+      width: 100%;
+  }
+
+  #about-me article {
+      padding: 0px;
+  }
+ 
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER (575px AND UNDER)*/
+@media screen and (max-width: 575px) {
+  header nav{
+      width: 100%;
+  }
+  
+  header nav ul li span{
+      font-size: 20px;
+  }
+
+  #contact-me address {
+      flex-direction: column;
+  }
+
+
 }
