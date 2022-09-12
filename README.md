@@ -5,11 +5,11 @@ Portfolio of my work and biography built as a React Single Page Application.
 
 ## Table Of Contents
 
-1. [Description] (#description)
+1. [Description](#description)
 
-2. [Preview] (#preview)
+2. [Preview](#preview)
  
-3. [Website] (#website)
+3. [Website](#website)
 
 
 ## Description
