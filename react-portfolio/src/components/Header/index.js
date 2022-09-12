@@ -9,7 +9,9 @@ setContactSelected,
 aboutSelected,
 setAboutSelected,
 portfolioSelected,
-setPortfolioSelected
+setPortfolioSelected,
+resumeSelected,
+setResumeSelected,
       } = props;
 
 
@@ -23,7 +25,9 @@ setPortfolioSelected
         aboutSelected={aboutSelected}
         setAboutSelected={setAboutSelected}
         portfolioSelected={portfolioSelected}
-        setPortfolioSelected={setPortfolioSelected} >
+        setPortfolioSelected={setPortfolioSelected}
+        resumeSelected={resumeSelected}
+        setResumeSelected={setResumeSelected} >
             </Nav>
         </header>
         

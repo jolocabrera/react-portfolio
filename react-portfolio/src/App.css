@@ -1,5 +1,5 @@
 :root {
-  --primary-color: grey ;
+  --primary-color: grey;
   --secondary-color: white;
   --tertiary-color: black;
 }
@@ -15,7 +15,6 @@ body {
   color: var(--secondary-color);
   font-family: Baskerville, "Baskerville Old Face";
   background-color: var(--primary-color)
-
 }
 
 /*Styles for header, footer, and nav*/
@@ -69,7 +68,7 @@ header nav ul li span:hover {
   color: var(--primary-color);
   border-radius: 15px;
   text-shadow: none;
-  
+
 }
 
 footer {
@@ -98,7 +97,7 @@ footer {
 .hero p {
   font-size: 70px;
   font-style: italic;
-  text-shadow: 0 0 10px rgba(0,0,0,0.5);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   color: var(--secondary-color);
 }
 
@@ -160,11 +159,11 @@ footer {
 }
 
 .app-container a {
-height: 100%;
-width: 100%;
-display: flex;
-flex-direction: column;
-justify-content: flex-end;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 
@@ -175,8 +174,8 @@ justify-content: flex-end;
   border: 5px solid var(--secondary-color);
   display: flex;
   align-items: flex-end;
-  background-size:cover;
-  background-position:0% 0%;
+  background-size: cover;
+  background-position: 0% 0%;
   background-repeat: no-repeat;
   opacity: 0.5;
 }
@@ -206,7 +205,7 @@ justify-content: flex-end;
 .app-label {
   padding: 10px 20px;
   margin: 40px 0;
-  width:fit-content;
+  width: fit-content;
   color: var(--tertiary-color);
   background-color: var(--secondary-color);
 }
@@ -215,7 +214,7 @@ justify-content: flex-end;
   background-image: url(../src/assets/cards.png);
 }
 
-#book-search{
+#book-search {
   background-image: url(../src/assets/books.jpeg);
 }
 
@@ -239,9 +238,10 @@ justify-content: flex-end;
   background-image: url(../src/assets/Password\ Generator\ Cover.webp);
 }
 
-#pet-park{
+#pet-park {
   background-image: url(../src/assets/petparklogo.svg);
 }
+
 /* end styling for main work section*/
 
 /* styling for footer section*/
@@ -265,7 +265,16 @@ justify-content: flex-end;
 
 
 /*contact form styling*/
-#form-container{
+#contact{
+  display: flex;
+  flex-direction: row;
+  margin: 40px 0;
+}
+
+.form-container {
+  flex-direction: column-reverse;
+  align-items: center;
+  width: 65%;
   padding: 2%;
 }
 
@@ -280,13 +289,14 @@ input {
   outline: none;
   border-radius: 3px;
   transition: box-shadow 0.2s;
-  
+
 }
 
 input:focus {
   border: 1px solid var(--secondary);
   box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
 }
+
 /*end styling for contact me section */
 
 
@@ -304,58 +314,84 @@ input:focus {
   white-space: nowrap;
 }
 
+#resume {
+  display: flex;
+  flex-direction: row;
+  margin: 40px 0px;
+}
+
+
+#resume-button {
+  font-size: 30px;
+}
+
+.resume-container {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px;
+}
+
 
 /*------------- MEDIA QUERIES-------------*/
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER (980px AND UNDER)*/
 @media screen and (max-width: 980px) {
-header {
+  header {
     flex-direction: column;
     align-content: center;
     position: relative;
-}
-header nav ul{
+  }
+
+  header nav ul {
     display: flex;
     flex-direction: column;
-}
+  }
 
-header nav ul li a {
+  header nav ul li a {
     padding: 10px 0px;
-}
+  }
 
-#about-me , #work, #contact-me {
+  #about-me,
+  #work,
+  #contact,
+  #resume,
+  #footer {
     flex-direction: column;
     align-items: center;
-}
+  }
 
-#about-me article {
+  #about-me article {
     flex-direction: column-reverse;
     align-items: center;
     width: 90%;
-}
+  }
 
-.section-title {
+  .section-title {
     justify-content: center;
     border-right: none;
     border-bottom: 3px solid var(--tertiary-color);
-}
+  }
 
-.img-container{
+  .img-container {
     display: flex;
     justify-content: center;
-}
+  }
 
-#about-me p {
+  #about-me p {
     width: 100%;
-}
+  }
 
-.app-container, #contact-me address {
+  .app-container,
+  #contact-me address {
     margin-top: 10px;
-}
+  }
 
-.app-label {
-  font-size: 10px;
-}
+  .app-label {
+    font-size: 10px;
+  }
 
 
 }
@@ -364,35 +400,35 @@ header nav ul li a {
 @media screen and (max-width: 768px) {
 
   #footer address {
-      width: 100%;
+    width: 100%;
   }
 
   .app-container {
-      width: 80%;
+    width: 80%;
   }
 
   #about-me .img-container {
-      width: 100%;
+    width: 100%;
   }
 
   #about-me article {
-      padding: 0px;
+    padding: 0px;
   }
- 
+
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER (575px AND UNDER)*/
 @media screen and (max-width: 575px) {
-  header nav{
-      width: 100%;
+  header nav {
+    width: 100%;
   }
-  
-  header nav ul li span{
-      font-size: 20px;
+
+  header nav ul li span {
+    font-size: 20px;
   }
 
   #footer address {
-      flex-direction: column;
+    flex-direction: column;
   }
 
 

@@ -7,7 +7,7 @@ function Footer() {
         <div>
 
             <section id="footer">
-                <h2 class="section-title">My Pages</h2>
+                <h2 className="section-title">My Pages</h2>
                 <address>
                     <a href="https://www.instagram.com/leanlikeajolo/">Instagram</a>
                     <a href="https://github.com/jolocabrera">GitHub</a>

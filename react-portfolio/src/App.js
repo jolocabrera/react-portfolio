@@ -8,6 +8,7 @@ import ContactForm from './components/Contact';
 import Portfolio from './components/Portfolio';
 import Hero from './components/Hero';
 import Footer from './components/Footer';
+import Resume from './components/Resume';
 
 
 
@@ -27,19 +28,19 @@ function App() {
   const [contactSelected, setContactSelected] = useState(false);
   const [aboutSelected, setAboutSelected] = useState(true);
   const [portfolioSelected, setPortfolioSelected] = useState(false);
+  const [resumeSelected, setResumeSelected] = useState(false);
 
   return (
     <div>
       <Header
-        // pages={pages}
-        // setCurrentPage={setCurrentPage}
-        // currentPage={currentPage}
         contactSelected={contactSelected}
         setContactSelected={setContactSelected}
         aboutSelected={aboutSelected}
         setAboutSelected={setAboutSelected}
         portfolioSelected={portfolioSelected}
         setPortfolioSelected={setPortfolioSelected}
+        resumeSelected={resumeSelected}
+        setResumeSelected={setResumeSelected}
       ></Header>
       <Hero></Hero>
       <main>
@@ -52,6 +53,8 @@ function App() {
         {portfolioSelected &&
         <Portfolio/>
         }
+        {resumeSelected &&
+        <Resume/>}
       </main>
       <Footer></Footer>
     </div>

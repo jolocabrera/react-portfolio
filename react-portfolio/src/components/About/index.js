@@ -1,11 +1,9 @@
 import React from 'react';
-// import coverImage from '../../assets/cover/cover-image.jpg';
 import profilePic from '../../assets/profilepicture.jpg';
 function About() {
   return (
     <section id="about-me" >
       <h2 className="section-title">Who am I?</h2>
-      {/* <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" /> */}
       <article>
         <p>
           I am currently a graduating senior at San Jose State University, set to graduate Spring 2022.
