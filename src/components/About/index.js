@@ -6,7 +6,7 @@ function About() {
       <h2 className="section-title">Who am I?</h2>
       <article>
         <p>
-          I am currently a graduating senior at San Jose State University, set to graduate Spring 2022.
+          I am a recent graduate from San Jose State University's Spring 2022 class.
           I am a general business major but also have a knack for programming due to my affinity for problem solving.
           In my tenor at San Jose State, although I am a General Business Major, I have geared my elective focus toward MIS based courses to fulfill my hunger for problem solving.
           Throughout these times I have added a number of skills to my repertoire such as experience in Salesforce, Python, and Microsoft Suite.
