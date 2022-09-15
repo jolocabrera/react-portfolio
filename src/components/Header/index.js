@@ -18,7 +18,7 @@ setResumeSelected,
     return (
         <header className="flex-row px-1">
             <h1>
-                <a href="/">Jolo Cabrera</a>
+                <a href="/react-portfolio">Jolo Cabrera</a>
             </h1>
             <Nav         contactSelected={contactSelected}
         setContactSelected={setContactSelected}
