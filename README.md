@@ -18,7 +18,7 @@ A personal portfolio that depicts a recent image of myself as well as a short bi
 
 ## Preview
 
-![Alt text](/react-portfolio/src/assets/Screenshot%20(92).png)
+![Alt text](/react-portfolio/src/assets/Screenshot.png)
 
 ## Website
 
