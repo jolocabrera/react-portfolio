@@ -2,9 +2,14 @@ import React, { useState } from "react";
 import githubLogo from "../../assets/GitHub-Mark-64px.png";
 
 const Project = ({ projects }) => {
+
   return (
-    <article className={`${projects.category}`} id={`${projects.id}`}>
-      <div className="opacity-tint" >
+    <article
+      className={`${projects.category}`}
+      id={`${projects.id}`}
+    >
+      <div className="opacity-tint">
+
         <figcaption className="app-label">
           {/* link to app */}
           <a href={`${projects.link}`} target="_blank" rel="noreferrer">
@@ -17,13 +22,13 @@ const Project = ({ projects }) => {
               src={githubLogo}
               alt="GitHub Logo"
               className="githubimage"
-            ></img>
+              ></img>
           </a>
         </figcaption>
 
         {/*languages used */}
         <p className="project-language">{projects.languages}</p>
-              </div>
+      </div>
     </article>
   );
 };
