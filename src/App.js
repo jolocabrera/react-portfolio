@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import React, { useState } from 'react';
 
 import './App.css';
@@ -9,9 +8,6 @@ import Portfolio from './components/Portfolio';
 import Hero from './components/Hero';
 import Footer from './components/Footer';
 import Resume from './components/Resume';
-import { Helmet } from 'react-helmet';
-
-
 
 
 
@@ -33,10 +29,6 @@ function App() {
 
   return (
     <div>
-      <Helmet>
-        <title>Jolo Cabrera</title>
-        <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-      </Helmet>
       <Header
         contactSelected={contactSelected}
         setContactSelected={setContactSelected}

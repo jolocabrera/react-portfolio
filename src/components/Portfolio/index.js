@@ -8,6 +8,7 @@ function Portfolio(props) {
       name: 'Game Quest',
       id: 'game-quest',
       link: 'https://game-quest-v01.herokuapp.com/',
+      github: 'https://github.com/El-Mariachi760/game-quest',
       category: 'primary-app',
       languages: 'MongoDB/Express.js/React/Node.js'
     },
@@ -15,6 +16,7 @@ function Portfolio(props) {
       name: 'Pet Park',
       id: 'pet-park',
       link: 'https://radiant-eyrie-35854.herokuapp.com/',
+      github: 'https://github.com/jolocabrera/pet-park',
       category: 'primary-app',
       languages: 'HTML/CSS/JS/Jquery/Node/Express/Sequelize/MySQL/Phaser/Tiled'
     },
@@ -22,6 +24,7 @@ function Portfolio(props) {
       name: 'Park Buddy',
       id: 'park-buddy',
       link: 'https://magoofy.github.io/project-1',
+      github: 'https://github.com/magoofy/project-1',
       category: 'secondary-app',
       languages: 'HTML/CSS/JS/BootStrap/API'
     },
@@ -29,6 +32,7 @@ function Portfolio(props) {
       name: 'Google Book Search',
       id: 'book-search',
       link: 'https://salty-bayou-74149.herokuapp.com/',
+      github: 'https://github.com/jolocabrera/book-search-engine',
       category: 'secondary-app',
       languages: 'MongoDB/Express/React/Node'
     },
@@ -36,13 +40,15 @@ function Portfolio(props) {
       name: 'Run Buddy',
       id: 'run-buddy',
       link: 'https://jolocabrera.github.io/run-buddy/',
+      github: 'https://github.com/jolocabrera/run-buddy',
       category: 'secondary-app',
       languages: 'HTML/CSS'
     },
     {
       name: 'Password Generator',
       id: 'password-generator',
-      link: '',
+      link: 'https://jolocabrera.github.io/password-generator/',
+      github: 'https://github.com/jolocabrera/password-generator',
       category: 'secondary-app',
       languages: 'HTML/CSS/JS'
     }
