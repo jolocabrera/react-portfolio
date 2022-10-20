@@ -10,7 +10,7 @@ function Resume () {
                Resume
             </h2>
             <div className="resume-container">
-                <a href="https://drive.google.com/file/d/1hLLnr93tOcd4feKFgPTF0bAviNTOItUa/view?usp=sharing" target="_blank" rel="noopener noreferrer" id="resume-button">Link To View Resume</a>
+                <a href="https://docs.google.com/document/d/1qyo8jPAfWPPD93b5Bws9TBSOcANItekmWKk83PakTOk/edit?usp=sharing" target="_blank" rel="noopener noreferrer" id="resume-button">View Resume</a>
                 </div>
         </section>
     );

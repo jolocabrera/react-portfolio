@@ -10,7 +10,7 @@ function Portfolio(props) {
       link: 'https://game-quest-v01.herokuapp.com/',
       github: 'https://github.com/El-Mariachi760/game-quest',
       category: 'primary-app',
-      languages: 'MongoDB/Express.js/React/Node.js'
+      languages: 'MERN Stack'
     },
     {
       name: 'Pet Park',
@@ -18,7 +18,7 @@ function Portfolio(props) {
       link: 'https://radiant-eyrie-35854.herokuapp.com/',
       github: 'https://github.com/jolocabrera/pet-park',
       category: 'primary-app',
-      languages: 'HTML/CSS/JS/Jquery/Node/Express/Sequelize/MySQL/Phaser/Tiled'
+      languages: 'HTML/CSS/JS/Jquery/Node/Express/MySQL/Phaser/Tiled'
     },
     {
       name: 'Park Buddy',
@@ -26,7 +26,7 @@ function Portfolio(props) {
       link: 'https://magoofy.github.io/project-1',
       github: 'https://github.com/magoofy/project-1',
       category: 'secondary-app',
-      languages: 'HTML/CSS/JS/BootStrap/API'
+      languages: 'HTML/JS/BootStrap/API'
     },
     {
       name: 'Google Book Search',
@@ -34,7 +34,7 @@ function Portfolio(props) {
       link: 'https://salty-bayou-74149.herokuapp.com/',
       github: 'https://github.com/jolocabrera/book-search-engine',
       category: 'secondary-app',
-      languages: 'MongoDB/Express/React/Node'
+      languages: 'MERN Stack'
     },
     {
       name: 'Run Buddy',
