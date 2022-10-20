@@ -434,6 +434,22 @@ input:focus {
   justify-content: center;
   align-items: center;
   padding: 20px 40px;
+  
+}
+
+.resume-container a {
+  background-color: rgb(180,180,180);
+  padding: 8px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  transition-duration: 0.5s;
+}
+
+.resume-container a:hover {
+  /* text-shadow: 2px 2px black; */
+  background-color: rgb(165,165,165);
+  transition-duration: 0.5s;
 }
 
 
