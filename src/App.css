@@ -80,6 +80,20 @@ footer {
   justify-content: center;
 }
 
+.footer-logo {
+  max-width: 40px;
+  min-width: 30px;
+  color: white;
+  opacity: 0.7;
+  transition-duration: 0.5s;
+
+}
+
+.footer-logo:hover {
+  opacity:1;
+  transition-duration: 0.5s;
+}
+
 /*End styles for header and nav*/
 
 /*Styles for hero section*/
@@ -332,19 +346,21 @@ footer {
 #footer {
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
 }
 
 #footer address {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   width: 65%;
-  padding: 10px;
+  padding: 20px;
 }
 
 #footer a {
   font-size: 30px;
   color: var(--secondary-color);
+  margin: 0px 30px;
 }
 
 
