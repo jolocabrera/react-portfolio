@@ -42,7 +42,7 @@ function ContactForm() {
       <motion.h2 
       initial={{ x: -100, opacity: 0, scale: 1 }}
       animate={{ x: 0, opacity: 1, scale: 1 }}
-      transition={{ duration: 0.5 }}
+      transition={{ duration: 1 }}
       data-testid="h1tag" className="section-title">Contact me</motion.h2>
       <div className='form-container'>
         <p>Feel free to contact me via email:</p>

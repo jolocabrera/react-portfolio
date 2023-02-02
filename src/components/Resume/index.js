@@ -10,7 +10,7 @@ function Resume () {
             <motion.h2 
       initial={{ x: -100, opacity: 0, scale: 1 }}
       animate={{ x: 0, opacity: 1, scale: 1 }}
-      transition={{ duration: 0.5 }}
+      transition={{ duration: 1 }}
        className="section-title">
                Resume
             </motion.h2>
