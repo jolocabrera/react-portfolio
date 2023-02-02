@@ -1,9 +1,15 @@
 import React from 'react';
 import profilePic from '../../assets/profilepicture.jpg';
+import { motion } from "framer-motion"
+
 function About() {
   return (
     <section id="about-me" >
-      <h2 className="section-title">Who am I?</h2>
+      <motion.h2 
+      initial={{ x: -100, opacity: 0, scale: 1 }}
+      animate={{ x: 0, opacity: 1, scale: 1 }}
+      transition={{ duration: 0.5 }}
+       className="section-title">Who am I?</motion.h2>
       <article>
         <p>
           I am a recent graduate from San Jose State University's Spring 2022 class.

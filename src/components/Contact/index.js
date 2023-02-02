@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { motion } from 'framer-motion';
 
 import { validateEmail } from '../../utils/helpers';
 
@@ -38,7 +39,11 @@ function ContactForm() {
 
   return (
     <section id="contact">
-      <h2 data-testid="h1tag" className="section-title">Contact me</h2>
+      <motion.h2 
+      initial={{ x: -100, opacity: 0, scale: 1 }}
+      animate={{ x: 0, opacity: 1, scale: 1 }}
+      transition={{ duration: 0.5 }}
+      data-testid="h1tag" className="section-title">Contact me</motion.h2>
       <div className='form-container'>
         <p>Feel free to contact me via email:</p>
         <a href="mailto:cabrera.jolop@gmail.com">Cabrera.JoloP@gmail.com</a>

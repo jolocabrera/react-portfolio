@@ -1,6 +1,7 @@
 import React,{useState} from 'react';
 import Project from '../Project';
 import { capitalizeFirstLetter } from '../../utils/helpers';
+import { motion } from 'framer-motion';
 
 function Portfolio(props) {
   const [projects] = useState([
@@ -57,7 +58,11 @@ function Portfolio(props) {
 
   return (
     <section id ="work">
-    <h2 className= "section-title">Work</h2>
+    <motion.h2 
+      initial={{ x: -100, opacity: 0, scale: 1 }}
+      animate={{ x: 0, opacity: 1, scale: 1 }}
+      transition={{ duration: 0.5 }}
+       className= "section-title">Work</motion.h2>
     <div className="app-container">
       {projects.map((projects) => 
       <Project projects={projects} key={`${projects.id}`}></Project>)}
