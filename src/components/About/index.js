@@ -10,7 +10,10 @@ function About() {
       animate={{ x: 0, opacity: 1, scale: 1 }}
       transition={{ duration: 1 }}
        className="section-title">Who am I?</motion.h2>
-      <article>
+      <motion.article
+      initial={{y:60, opacity: 0, scale: 1}}
+      animate={{y:0, opacity:1, scale:1}}
+      transition={{ duration:1 }}>
         <p>
           I am a recent graduate from San Jose State University's Spring 2022 class.
           I am a general business major but also have a knack for programming due to my affinity for problem solving.
@@ -26,7 +29,7 @@ function About() {
         <div className="img-container">
           <img src={profilePic}  alt='profile picture'/>
         </div>
-      </article>
+      </motion.article>
     </section>
 
 

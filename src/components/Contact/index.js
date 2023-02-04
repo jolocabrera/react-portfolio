@@ -44,7 +44,11 @@ function ContactForm() {
       animate={{ x: 0, opacity: 1, scale: 1 }}
       transition={{ duration: 1 }}
       data-testid="h1tag" className="section-title">Contact me</motion.h2>
-      <div className='form-container'>
+      <motion.div
+            initial={{y:50, opacity: 0, scale: 1}}
+            animate={{y:0, opacity:1, scale:1}}
+            transition={{ duration:1 }}
+             className='form-container'>
         <p>Feel free to contact me via email:</p>
         <a href="mailto:cabrera.jolop@gmail.com">Cabrera.JoloP@gmail.com</a>
 
@@ -71,7 +75,7 @@ function ContactForm() {
         )}
         <button data-testid="button" type="submit">Submit</button>
       </form> */}
-        </div>
+        </motion.div>
     </section>
   );
 }

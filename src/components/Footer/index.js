@@ -2,10 +2,14 @@ import React from "react";
 import githubLogo from "../../assets/GitHub-Mark-Light-64px.png";
 import igLogo from "../../assets/instagramlogo.png";
 import linkedinLogo from "../../assets/linkedinlogowhite.png";
+import { motion } from "framer-motion";
 
 function Footer() {
   return (
-    <div>
+    <motion.div
+    initial={{y:300, opacity: 0, scale: 1}}
+    animate={{y:0, opacity:1, scale:1}}
+    transition={{ duration:1 }}>
       <section id="footer">
         {/* <h2 className="section-title">My Pages</h2> */}
         <address>
@@ -48,7 +52,7 @@ function Footer() {
       <footer>
         <p>Thank you for visiting!</p>
       </footer>
-    </div>
+    </motion.div>
   );
 }
 

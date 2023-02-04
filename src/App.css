@@ -14,7 +14,8 @@
 /*General styles for entire body*/
 body {
   color: var(--secondary-color);
-  font-family: Baskerville, "Baskerville Old Face";
+  /* font-family: Baskerville, "Baskerville Old Face"; */
+  font-family: 'Oswald', sans-serif;
   background-color: var(--primary-color)
 }
 

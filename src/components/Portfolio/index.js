@@ -63,10 +63,14 @@ function Portfolio(props) {
       animate={{ x: 0, opacity: 1, scale: 1 }}
       transition={{ duration: 1 }}
        className= "section-title">Work</motion.h2>
-    <div className="app-container">
+    <motion.div
+          initial={{y:60, opacity: 0, scale: 1}}
+          animate={{y:0, opacity:1, scale:1}}
+          transition={{ duration:1 }}
+           className="app-container">
       {projects.map((projects) => 
       <Project projects={projects} key={`${projects.id}`}></Project>)}
-    </div>
+    </motion.div>
 </section>
   );
 }
