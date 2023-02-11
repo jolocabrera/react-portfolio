@@ -19,7 +19,7 @@ function Portfolio(props) {
       link: 'https://radiant-eyrie-35854.herokuapp.com/',
       github: 'https://github.com/jolocabrera/pet-park',
       category: 'primary-app',
-      languages: 'HTML/CSS/JS/Jquery/Node/Express/MySQL/Phaser/Tiled'
+      languages: 'HTML / CSS / JS / Jquery / Node / Express / MySQL / Phaser / Tiled'
     },
     {
       name: 'Park Buddy',
@@ -27,7 +27,7 @@ function Portfolio(props) {
       link: 'https://magoofy.github.io/project-1',
       github: 'https://github.com/magoofy/project-1',
       category: 'secondary-app',
-      languages: 'HTML/JS/BootStrap/API'
+      languages: 'HTML / JS / BootStrap / API'
     },
     {
       name: 'Google Book Search',
@@ -43,7 +43,7 @@ function Portfolio(props) {
       link: 'https://jolocabrera.github.io/run-buddy/',
       github: 'https://github.com/jolocabrera/run-buddy',
       category: 'secondary-app',
-      languages: 'HTML/CSS'
+      languages: 'HTML / CSS'
     },
     {
       name: 'Password Generator',
@@ -51,7 +51,7 @@ function Portfolio(props) {
       link: 'https://jolocabrera.github.io/password-generator/',
       github: 'https://github.com/jolocabrera/password-generator',
       category: 'secondary-app',
-      languages: 'HTML/CSS/JS'
+      languages: 'HTML / CSS / JS'
     }
   ]);
 
