@@ -578,11 +578,10 @@ input:focus {
   header nav ul li span {
     font-size: 20px;
   }
-  
-  #footer address {
-    flex-direction: column;
-  }
 
+  .form-container{
+    font-size: x-large;
+  }
 
 
 }
