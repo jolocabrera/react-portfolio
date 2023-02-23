@@ -8,7 +8,7 @@ function Portfolio(props) {
     {
       name: 'Game Quest',
       id: 'game-quest',
-      link: 'https://game-quest-v01.herokuapp.com/',
+      link: 'https://immense-dawn-89062.herokuapp.com/',
       github: 'https://github.com/El-Mariachi760/game-quest',
       category: 'primary-app',
       languages: 'MERN Stack'
