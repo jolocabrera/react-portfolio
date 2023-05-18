@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.90091142.css",
-    "main.js": "/react-portfolio/static/js/main.bbeae655.js",
+    "main.css": "/react-portfolio/static/css/main.d1d2010f.css",
+    "main.js": "/react-portfolio/static/js/main.a81caf96.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/Horiseon Cover.jpg": "/react-portfolio/static/media/Horiseon Cover.c672fcf0b6bd0c33ff16.jpg",
     "static/media/Hero BG.jpg": "/react-portfolio/static/media/Hero BG.376ddabec0c1cf9df2d7.jpg",
@@ -14,13 +14,14 @@
     "static/media/Robot Gladiators Cover.jpg": "/react-portfolio/static/media/Robot Gladiators Cover.bb9d3026960e636e9035.jpg",
     "static/media/Password Generator Cover.webp": "/react-portfolio/static/media/Password Generator Cover.0a7ea23118e5e5169da8.webp",
     "static/media/instagramlogo.png": "/react-portfolio/static/media/instagramlogo.bb8a77bfaa323012e852.png",
+    "static/media/thecompanylogo.svg": "/react-portfolio/static/media/thecompanylogo.58e16d5a3d3089bf282b.svg",
     "index.html": "/react-portfolio/index.html",
-    "main.90091142.css.map": "/react-portfolio/static/css/main.90091142.css.map",
-    "main.bbeae655.js.map": "/react-portfolio/static/js/main.bbeae655.js.map",
+    "main.d1d2010f.css.map": "/react-portfolio/static/css/main.d1d2010f.css.map",
+    "main.a81caf96.js.map": "/react-portfolio/static/js/main.a81caf96.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.90091142.css",
-    "static/js/main.bbeae655.js"
+    "static/css/main.d1d2010f.css",
+    "static/js/main.a81caf96.js"
   ]
 }
